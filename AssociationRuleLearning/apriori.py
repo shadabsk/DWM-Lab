@@ -17,7 +17,11 @@ rules = apriori(transactions,min_support=0.003, min_confidence=0.2, min_lift=3, 
 results=list(rules)
 results_list=[]
 for i in range(0,len(results)):
+<<<<<<< HEAD
+    results_list.append('RULE:\t' + str(results[i][0]).lstrip('frozenset(').rstrip(')') + 
+=======
     results_list.append('RULE:\t' + str(results[i][0]).replace('frozenset(','') + 
+>>>>>>> 30ac38ce96a530911e4c9d7cd825b007ef90a256
                         '\nSUPPORT:\t' + str(results[i][1]) +
                         '\nCONF:\t' + str(results[i][2][0][2]) +
                         '\nLIFT:\t' + str(results[i][2][0][3]))
