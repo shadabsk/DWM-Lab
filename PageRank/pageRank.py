@@ -1,5 +1,7 @@
 import numpy as np
 pageno=int(input("Enter total number of pages"))
+d=0.85 #damping factor
+eps=1.08e-8 #use for convergence
 
 links=[]
 for i in range(0,pageno):
@@ -24,11 +26,18 @@ for i in range(0,pageno):
 		if(links[j][i]==1):
 			M[i][j]=1/outBound[j]
 
-col=np.ones((pageno,1))
+M=np.matrix(M)
+onceColMat=np.matrix(np.ones((pageno,1),dtype=int))
 
-r=np.full((pageno,1),1/pageno)
+R=np.matrix(np.full((pageno,1),1/pageno))
 
-print(r)
+while True:
+	Rnext = d*np.dot(M,R)+((1-d)/pageno)*onceColMat
+	diff = np.subtract(Rnext,R)
+	if np.linalg.norm(diff)<eps:
+		break
+	else:
+		R=Rnext
 
 
 
