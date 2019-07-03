@@ -9,6 +9,7 @@ Datawarehouse and Mining Experiments
 * Implementation of Page Rank Algorithm
 * Performing operations on Weka-Tool for Data pre-processing
 * Performing OLAP operations Using MySQL for Data analysis
+* Assignments
 
 ## Getting Started
 * Use Python interpreter for execution of program, install the necessary packages.
@@ -50,6 +51,11 @@ Review this dimension and list possible attributes for each of dimension table a
 
 ### Performing OLAP operations Using MySQL for Data analysis.
 * Implementation of various OLAP operation such as roll-up,pivot,slice and dice using MySQL. olap.mwb contains the model of the database and script.sql contains the sql queries can be imported for performing OLAP operations.
+
+### Assignments.
+* Assignment 1a and 1b includes modelling of datawarehouse problem statement & implementation work can be seen from respective directory.
+* Assignment 2 includes a demographic hosted youtube video explaining the essentail term present in "Logistic regression". Click on the image to view the complete video
+[![Demographic explanation to logistic regression](http://i3.ytimg.com/vi/xFxscnQRrgs/maxresdefault.jpg)](https://youtu.be/xFxscnQRrgs)
 
 ### Prerequisites
 
