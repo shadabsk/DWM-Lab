@@ -16,14 +16,14 @@ Datawarehouse and Mining Experiments
 
 ### Building Data WarehouseData Mart for a given problem statement/scenario.
 #### Problem statement for this experiment.
-* Design a star schema to track a shipments for a distribution company , the following dimension table are found
-i.Time
-ii.Cust_Shipto
-iii.ShipFrom
-iv.Product
-v.TypeOfDeal
-vi.ModeOfShipment
-Review this dimension and list possible attributes for each of dimension table also designate a primary key for each table
+* Design a star schema to track a shipments for a distribution company , the following dimension table are found  
+i.Time  
+ii.Cust_Shipto  
+iii.ShipFrom  
+iv.Product  
+v.TypeOfDeal  
+vi.ModeOfShipment  
+Review this dimension and list possible attributes for each of dimension table also designate a primary key for each table  
 ```The schemas have been developed using the MySQL workbench 8.0 C.E under the directory entitled 'Design Data Model'```
 
 ### Performing Simple Linear Regression.
