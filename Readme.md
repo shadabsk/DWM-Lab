@@ -66,9 +66,9 @@ https://www.anaconda.com/distribution/#download-section
 ## Demonstrations (Valid set Sample inputs and output)
 * Building Data WarehouseData Mart for a given problem statement/scenario.
 <p align="center">
-  <img src="https://i.ibb.co/1sTm6Kx/Dist-Star.png" width="550" height="300"  title="Star Schema">
-  <img src="https://i.ibb.co/VNvwYHL/Dist-Snow-Flake.png" width="550" height="300"  title="Dist-Snow-Flake Schema">
-  <img src="https://i.ibb.co/pr0T6K7/Dist-Galaxy.png" width="550" height="300"  title="Fact-Constellation Schema">
+  <img src="https://i.ibb.co/6vFWBb5/Dist-Star.png" width="550" height="300"  title="Star Schema">
+  <img src="https://i.ibb.co/595KhY1/Dist-Snow-Flake.png" width="550" height="300"  title="Dist-Snow-Flake Schema">
+  <img src="https://i.ibb.co/tPm6w2G/Dist-Galaxy.png" width="550" height="300"  title="Fact-Constellation Schema">
  </p>
 
 * Performing Simple Linear Regression.
